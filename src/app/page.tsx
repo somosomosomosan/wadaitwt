@@ -11,7 +11,7 @@ const colors = {
 		700: '#2a69ac',
 	},
 };
-export const theme = extendTheme({ colors });
+const theme = extendTheme({ colors });
 
 export default function Home() {
 	return (

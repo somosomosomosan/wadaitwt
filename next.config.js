@@ -1,11 +1,9 @@
-const repoName = '/wadaitwt';
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	output: 'export',
 	reactStrictMode: true,
 	env: {
-		repoName: repoName,
+		repoName: '/wadaitwt',
 	},
 	// Optional: Add a trailing slash to all paths `/about` -> `/about/`
 	// trailingSlash: true,
